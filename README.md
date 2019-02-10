@@ -1,2 +1,2 @@
 # hospital-by-kks
-This is a sample repo for understanding lerna
+Sample repo for understanding lerna. Lerna is a node tool to manage multiple packages inside a repository. For a project which publishes multiple packages, this tool is used. This tool can be used in two modes, fixed and independent. In fixed mode, all the packages inside the root repository should have common version number. In independent mode, this limitation is not there and all the packages can have their own versioning, on need to publish basis. Lerna has several helpful command line utilities, which can be used to manage the monorepo in various use-cases. Mono-repos are those repos which contains multiple packages inside them.
