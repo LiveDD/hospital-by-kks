@@ -5,5 +5,8 @@
     "@types/node": "^10.12.24",
     "lerna": "^3.11.0",
     "typescript": "^3.3.3"
+  },
+  "scripts": {
+    "publish": "lerna run tsc && lerna publish"
   }
 }
